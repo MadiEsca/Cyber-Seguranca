@@ -1,1 +1,0 @@
-- 1 Byte (B) = 8 bits(b)
