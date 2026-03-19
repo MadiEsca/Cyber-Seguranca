@@ -1,0 +1,63 @@
+- *Mindset -> Coletar o máximo de informações possível*
+- # Termos Chave
+- Tudo começa na etapa de reconhecimento.
+- Coleta de dados antes da invasão
+  collapsed:: true
+	- Quais tecnologias estão sendo utilizadas pela empresa
+	- Quem e quantas são as pessoas que estão trabalhando lá
+	- Os tipos e quais são os dados que estão atrelados a empresa
+- Qual a estrutura do site/serviço/aplicativo que será invadido
+-
+- # Técnicas de Reconhecimento
+- OSINT
+- Subdomain Enummeration
+- Host Identification
+- Verificatios of WEB applications
+- Checking for Vulnerabilities automatically
+	- Recon FTW -> exemplo de ferramenta
+-
+- ## OSINT
+- Reconhecimento baseado em fontes abertas, ou seja, sem invasões, apenas informações que estão disponíveis na internet
+  collapsed:: true
+	- Fotos
+	- Registros Públicos
+	- Publicações de Redes Sociais
+- **Ferramentas**
+  collapsed:: true
+	- *WHOIS*
+		- Mostra as informações relativas a um domínio específico
+	- *The Harvester*
+		- Diferentemente do *WHOIS*, o *The Harvester* é uma ferramenta que vai nos mostrar informações a respeito das redes sociais que forem encontradas dentro de um domínio especificado. É possível especificar qual rede social você quer buscar dentro desse domínio
+	- *H8mail*
+		- Utilizado para verificar se um email específico teve algum vazamento de senha e, caso aja, ele retorna a senha . Ele é capaz de fazer isso se utilizando de dados contidos em Data Breaches.
+	- *Metadata Finder (Meta Finder)*
+		- Utilizado para extrair os metadados de um documento, foto, etc.
+	- *Google dorks (Docks Hunter)*
+		- É basicamente uma automação das pesquisas do google dorks, utilizando paterns dentro de um domínio especificado.
+	- *Github Dorks ()gitdorks_go)*
+		- Faz uma varredura dentro de um repositório, utilizando Patterns, em busca de possíveis dados vazados, como:
+		  collapsed:: true
+			- Chaves de acesso
+			- Arquivos comprometidos
+			- Termos Chave
+		- Semelhante ao google dorks, mas voltado para o github.
+	- *Github ORG Analysis (Enumerepo e trufflehog)*
+		- *Enumerepo*
+		  collapsed:: true
+			- Utilizado para buscar por repositórios de usuários que especificados em uma determinada lista de nomes
+		- *Trufflehog*
+		  collapsed:: true
+			- Utilizado para buscar informações sensíveis dentro de determinados repositórios:
+				- Credenciais
+				- Tokens
+-
+- ## Host Discovery and Vulnerability Identifications
+- Nessa etapa faremos o reconhecimento dos computadores,
+-
+- # Pesquisa
+- Segurança de DNS
+- Data Breaches | Data Leaks
+- Permutação
+- Enumeração de Empresas
+- Transparência de Certificado
+-

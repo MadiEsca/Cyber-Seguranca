@@ -1,0 +1,33 @@
+- A ética é a pequena voz na sua cabeça que diz o que é certo e o que é errado, orientando você a tomar as decisões certas. Como especialista em segurança digital, você precisa entender a lei e os interesses de uma empresa para poder tomar essas decisões.
+-
+- ## Os 10 mandamentos da ética em informática
+- ![image.png](../assets/image_1757624274293_0.png)
+- ## Cibercrime
+- O crime digital se divide em três categorias:
+	- **O crime por computador** é onde um computador é **alvo** de atividades criminosas. Por exemplo, ataques de malware, invasão ou ataques de negação de serviço(DDoD).
+	- **O crime assistido por computador** ocorre quando um computador é usado para cometer um crime, como roubo ou fraude.
+	- **O crime incidente no computador** é quando um computador fornece informações relacionados a um crime real. Por exemplo, um computador é usado para armazenar vídeos baixados ilegalmente, e não a ferramenta real usada para cometer o crime.
+- Há muitas ferramentas conectadas à Internet - muitas das quais não exigem muita experiência - que estão contribuindo para o crescimento exponencial do crime cibernético. Na verdade, **o crime digital está crescendo muito mais rápido do que a capacidade do sistema legal de criar as leis e os regulamentos que o proíbem**.
+  
+  Há várias agências trabalhando para combater o crime digital, incluindo o Federal Bureau of Investigation Internet *Crime Compliant Center* (**IC3**), a *InfraGard e a Software and Information Industry Association* (**SIIA**) nos EUA.
+-
+- ## Leis Cibernéticas
+- **Leis Estatuárias**
+	- O Congresso norte-americano estabeleceu agências administrativas federais e uma estrutura regulatória que inclui penalidades civis e criminais para o não cumprimento das regras.
+	- As leis penais aplicam um código moral comumente aceito, apoiado pela autoridade do governo. Por exemplo, a Lei de fraudes e abusos de computador é uma lei que proíbe o acesso a um computador sem autorização ou em excesso de autorização. A violação dessas regras pode resultar em multa ou sentença de prisão.
+- **Direito administrativo**
+	- Uma estrutura jurídica que rege as atividades de agências administrativas do governo, a lei administrativa garante que os órgãos públicos ajam de acordo com a lei.
+	- Administrativamente, a FCC e a Federal Trade Commission têm se preocupado com problemas como fraude e roubo de propriedade intelectual.
+- **Direito comum**
+	- Finalmente, casos jurídicos comuns passam pelo sistema judiciário com o fornecimento de precedentes e bases constitucionais para as leis.
+-
+- ## Federal Information Security Management Act (FISMA)
+- Os sistemas federais de TI contêm e usam uma grande quantidade de informações valiosas e, portanto, são considerados alvos de alto valor para os criminosos digitais.
+- Pensando nisso, o governo dos EUA criou o FISMA, um ato que, se preocupando com a segurança da informação, definiu algumas obrigações que todo sistema federal de TI deve seguir. O FISMA dita que qualquer sistema federal deve implementar um sistema de segurança que cumpra com os seguintes critérios:
+	- Avaliações de risco
+	- Inventário anual dos sistemas de TI
+	- Políticas e procedimentos para reduzir o risco
+	- Programas de treinamento
+	- Teste e avaliação de todos os controles dos sistemas de TI
+	- Procedimento de resposta a incidente
+	- Continuidade do plano de operações
