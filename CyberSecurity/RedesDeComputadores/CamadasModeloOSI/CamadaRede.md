@@ -1,6 +1,6 @@
 # Camada de Rede
 
-- É a 5° camada do modelo OSI, sendo responsável por realizar a comunicação entre dispositivos dentro da *Internetwork* e pelo endereçamento lógico dos pacotes de dados, ou seja, máquinas que não se encontram diretamente conectadas, de forma física.
+- É a terceira camada do modelo OSI, sendo responsável por realizar a comunicação entre dispositivos dentro da *Internetwork* e pelo endereçamento lógico dos pacotes de dados, ou seja, máquinas que não se encontram diretamente conectadas, de forma física.
 - Os **roteadores** (*routers*) são dispositivos dessa camada, fornecendo todos os serviços necessários para o roteamento de dados.
   - Não propagam mensagens *broadcast* ou *multicast* pela rede, diferentemente de ***hubs*** e ***switchs***.
 

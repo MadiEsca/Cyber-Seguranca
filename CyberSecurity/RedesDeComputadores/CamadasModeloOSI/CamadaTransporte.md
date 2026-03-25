@@ -45,4 +45,4 @@ Uma conexão confiável garante a total integridade dos dados transmitidos entre
 - *Multiplexar* - Significa transmitir diversas informações simultaneamente usando-se, ou não, um mesmo sinal ou canal, implicando que essas informações podem ser extraídas em um meio ou canal particular.
 - *Buffer* - Memória de acesso rápido destinada ao armazenamento temporário de pequenas quantidades de dados.
 
-- *Datagrama* - ...
+- *Datagrama* - É o cabeçalho que contém as informações do pacote que é trafegado por meio dos protocolos.

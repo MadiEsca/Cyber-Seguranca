@@ -19,13 +19,13 @@ Esse modelo tinha como objetivo solucionar os seguintes problemas relacionados a
 - Como os dados são **interpretados**
 - Como os dados são **utilizados**
 
-Onde cada uma dessas fases é representada por uma *layer* (camada) dentro do **modelo OSI**, seguidas também de *regras* (protocolos) a serem seguidas por todos os fabricantes - tanto de software quando de hardware.
+Onde cada uma dessas fases é representada por uma *layer* (camada) dentro do **modelo OSI**, seguidas também de *regras* (**protocolos**) a serem seguidas por todos os fabricantes - tanto de software quando de hardware.
 
 **O modelo OSI é um modelo de referência**, ou seja, ele especifíca **todos** os processos para que uma comunicação de dados possa ocorrer da devida forma. Mas, como é de se esperar, sua adoção não é estritamente obrigatória, sendo possível **adotar** - protocolos cuja estrutura é conhecida como "**arquitetura de camadas**" -  **ou não** - protocolos conhecidos como **proprietários**.
 
 O modelo OSI resolvia grande parte dos problemas enfrentados pela grande maioria de pessoas, mas  não era perfeito, longe disso, ele possuía suas vantagens e desvantagens. Diversos governos, como  *Estados Unidos* e *Brasil*, tentaram "forçar" a implantação do modelo OSI, o que claramente fracassou e, lentamente, resultou na substituição do modelo OSI por **outros modelos mais flexíveis e funcionais**.
 
-Como por exemplo o **`TCP/IP`**, que apesar de ***não ser um modelo em si***,  mas sim um conjunto de protocolos, foi amplamente adotado, principalmente por sua ***flexibilidade*** e ***confiabilidade***. Esse "modelo" foi desenvolvido pelo *Departamento de Defesa Americano ²*, **que buscava um método para conseguir transportar dados de maneira segura mesmo em caso de um holocausto nuclear**.
+Como por exemplo o **`TCP/IP`**, que apesar de ***não ser um modelo em si***,  mas sim uma pilha de protocolos homônimos, foi amplamente adotado, principalmente por sua ***flexibilidade*** e ***confiabilidade***. Esse "modelo" foi desenvolvido pelo *Departamento de Defesa Americano ²*, **que buscava um método para conseguir transportar dados de maneira segura mesmo em caso de um holocausto nuclear**.
 
 [^1]:International Organization for Standardization
 [^2]:DoD - Departament of Defense
@@ -66,78 +66,15 @@ Basicamente, as 7 camadas do modelo OSI podem ser subdivididas em **duas categor
 - **Inferiores** -> Camadas de transporte (1, 2, 3 e 4)
   - São as camadas que trabalham no meio mais físico, realizando o transporte dos dados e distribuição dos dados em uma comunicação.
 
-Vale ressaltar que **o modelo não faz a comunicação dos dados realmente existir**, ele apenas nos dá a arquitetura necessária para que isso ocorra, os responsáveis por cuidar dessa comunicação são os **protocolos**, que implementam cada uma das funções especificadas nas camadas do modelo.
+Vale ressaltar que **o modelo não faz a comunicação dos dados realmente existir**, ele apenas nos dá a arquitetura necessária para que isso ocorra, **os responsáveis por cuidar dessa comunicação são os protocolos**, que implementam cada uma das funções especificadas nas camadas do modelo.
 
-  <div class="container">
-    <h3 style="align-itens:center">Tabela do modelo OSI</h3>
-    <table>
-      <thead>
-        <tr>
-          <th style="width:60px">Nº</th>
-          <th>Camada</th>
-          <th>Nome (EN)</th>
-          <th>Unidade de Dados</th>
-          <th>Função Principal</th>
-          <th>Exemplos de Protocolos</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="l7">
-          <td class="layer-num">7</td>
-          <td><strong>Aplicação</strong></td>
-          <td><span class="badge">Application</span></td>
-          <td>Dados</td>
-          <td>Interface entre o usuário e a rede; serviços de rede</td>
-          <td>HTTP, HTTPS, FTP, DNS, SMTP, POP3</td>
-        </tr>
-        <tr class="l6">
-          <td class="layer-num">6</td>
-          <td><strong>Apresentação</strong></td>
-          <td><span class="badge">Presentation</span></td>
-          <td>Dados</td>
-          <td>Tradução, criptografia e compressão de dados</td>
-          <td>SSL/TLS, JPEG, MPEG, ASCII</td>
-        </tr>
-        <tr class="l5">
-          <td class="layer-num">5</td>
-          <td><strong>Sessão</strong></td>
-          <td><span class="badge">Session</span></td>
-          <td>Dados</td>
-          <td>Controle de sessões e diálogos entre aplicações</td>
-          <td>NetBIOS, RPC, PPTP</td>
-        </tr>
-        <tr class="l4">
-          <td class="layer-num">4</td>
-          <td><strong>Transporte</strong></td>
-          <td><span class="badge">Transport</span></td>
-          <td>Segmento</td>
-          <td>Entrega confiável, ou não, fim-a-fim, controle de fluxo e erros</td>
-          <td>TCP, UDP</td>
-        </tr>
-        <tr class="l3">
-          <td class="layer-num">3</td>
-          <td><strong>Rede</strong></td>
-          <td><span class="badge">Network</span></td>
-          <td>Pacote, Datagrama</td>
-          <td>Endereçamento lógico e roteamento entre redes</td>
-          <td>IP, ICMP, OSPF, BGP</td>
-        </tr>
-        <tr class="l2">
-          <td class="layer-num">2</td>
-          <td><strong>Enlace de Dados</strong></td>
-          <td><span class="badge">Data Link</span></td>
-          <td>Quadro (Frame)</td>
-          <td>Transferência confiável em um único enlace físico</td>
-          <td>Ethernet, Wi-Fi (802.11), PPP, ARP</td>
-        </tr>
-        <tr class="l1">
-          <td class="layer-num">1</td>
-          <td><strong>Física</strong></td>
-          <td><span class="badge">Physical</span></td>
-          <td>Bit</td>
-          <td>Transmissão de bits brutos pelo meio físico</td>
-          <td>USB, Bluetooth, DSL, Cabos, Fibra óptica</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
+| Nº   | Camada       | Nome (EN)    | Unidade de Dados | O que vive aqui              | Função Principal                     | Exemplos de Protocolos            | Por que importa na competição                |
+| ---- | ------------ | ------------ | ---------------- | ---------------------------- | ------------------------------------ | --------------------------------- | -------------------------------------------- |
+| 7    | Aplicação    | Application  | Dados            | HTTP, DNS, SMTP, SSH         | Interface entre o usuário e a rede   | HTTP, HTTPS, FTP, DNS, SMTP, POP3 | Protocolos de serviço, vulnerabilidades web  |
+| 6    | Apresentação | Presentation | Dados            | TLS, criptografia, encoding  | Tradução, criptografia e compressão  | SSL/TLS, JPEG, MPEG, ASCII        | Criptografia, inspeção de tráfego            |
+| 5    | Sessão       | Session      | Dados            | Sessões, controle de conexão | Controle de sessões e diálogos       | NetBIOS, RPC, PPTP                | Persistência de sessão, ataques de hijacking |
+| 4    | Transporte   | Transport    | Segmento         | TCP, UDP, portas             | Entrega fim-a-fim, controle de fluxo | TCP, UDP                          | Handshake, regras de firewall por porta      |
+| 3    | Rede         | Network      | Pacote           | IP, roteamento, ACLs         | Endereçamento lógico e roteamento    | IP, ICMP, OSPF, BGP               | Subnetting, firewalls, roteamento            |
+| 2    | Enlace       | Data Link    | Quadro           | Ethernet, MAC, VLANs, STP    | Transferência no enlace físico       | Ethernet, Wi-Fi, PPP, ARP         | VLAN hopping, MAC flooding                   |
+| 1    | Física       | Physical     | Bit              | Cabos, sinais, NICs          | Transmissão de bits                  | USB, Bluetooth, Fibra, DSL        | Problemas físicos, duplex mismatch           |
+

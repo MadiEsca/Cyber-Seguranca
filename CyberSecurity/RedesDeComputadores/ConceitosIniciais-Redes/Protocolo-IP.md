@@ -1,14 +1,19 @@
 # Definição e Explicação do Endereço IP
+É baseado na **comutação de pacotes**.
+
+*Comutação de pacotes* - Processo de envio de dados em forma de pacotes, sendo que esse envio é realizado, muitas vezes, por caminhos diferentes. Também conhecido como **rotamento de pacotes**.  
+
 ---
+
 Um **endereço de protocolo de internet (IP)** é o número de identificação exclusivo atribuído a cada dispositivo conectado à internet. Uma definição de endereço IP é um rótulo numérico atribuído a dispositivos que usam a internet para se comunicar. Computadores que se comunicam pela internet ou por meio de redes locais compartilham informações de um local específico para outro por meio do endereço IP.
 
 **Os endereços IP têm duas versões ou padrões distintos:**
+
 - **O endereço do protocolo de internet versão 4 (IPv4)** é o mais antigo dos dois, que tem espaço para até 4 bilhões de endereços IP e é atribuído a todos os computadores.
 - **O Protocolo de Internet versão 6 (IPv6)**, mais recente, tem espaço para trilhões de endereços IP, que representam a nova geração de dispositivos, além de computadores. Há também vários tipos de endereços IP, incluindo endereços IP **públicos**, **privados**, **estáticos** e **dinâmicos**.
 - Cada dispositivo com uma conexão de internet tem um endereço IP, seja um **computador**, **laptop**, **dispositivo IoT** ou até mesmo **brinquedos**. Os endereços IP permitem a transferência eficiente de dados entre dois dispositivos conectados, permitindo que máquinas em redes diferentes conversem entre si.
 
 # Como Funciona um Endereço IP?
----
 O endereço IP funciona atribuindo um **endereço de rede** a qualquer dispositivo que **esteja conectado a esta rede**. As tarefas comuns para um endereço IP incluem:
 - **Identificação de um host**
 - **Identificação de uma rede**
@@ -17,14 +22,13 @@ O endereço IP funciona atribuindo um **endereço de rede** a qualquer dispositi
 Um endereço IP não é aleatório, já que a criação de um endereço IP tem como base a matemática. A Autoridade de Números Atribuídos à Internet (Internet Assigned Numbers Authority, IANA) aloca o endereço IP e supervisiona sua criação. A gama completa de endereços IPv4 pode ir de 0.0.0.0 a 255.255.255.255.
 
 # Tipos de Endereço IP
----
 ## Endereço IP Público
 O endereço de IP público, ou endereço *voltado para fora*, é o IP do **principal dispositivo** utilizado para nos conectarmos à internet comercial ou doméstica do provedor de serviços de internet (ISP).
 
 Um endereço IP público, ou endereço IP externo, aplica-se ao principal dispositivo que as pessoas usam para conectar sua rede de internet comercial ou doméstica ao seu provedor de serviços de internet (ISP). Na maioria dos casos, esse será o roteador. Todos os dispositivos que se conectam a um roteador se comunicam com outros endereços IP usando o endereço IP do roteador. Conhecer um endereço IP externo é crucial para que as pessoas abram portas usadas para jogos on-line, e-mail e servidores web, streaming de mídia e criação de conexões remotas.
 
 ## Endereço IP Privado
-Um endereço IP privado, ou endereço IP voltado para dentro, é atribuído por um escritório ou intranet doméstica (ou rede de área local) a dispositivos, ou pelo provedor de serviços de internet (ISP). O roteador de casa ou escritório gerencia os endereços IP privados para os dispositivos que se conectam a ele, de dentro dessa rede local. Os dispositivos de rede são, portanto, mapeados de seus endereços IP privados para endereços IP públicos pelo roteador. Os endereços IP privados são reutilizados em várias redes, preservando assim o valioso espaço de endereço IPv4 e estendendo a capacidade de endereçamento além do limite simples do IPv4 (4.294.967.296 ou 2³²). No esquema de endereçamento IPv6, cada dispositivo possível tem seu próprio identificador exclusivo atribuído pelo ISP ou organização de rede primária, que tem um prefixo exclusivo. O endereçamento privado é possível no IPv6 e, quando usado, é chamado de endereçamento local exclusivo (ULA).
+Um endereço IP privado, ou **endereço IP voltado para dentro**, é atribuído por um escritório ou intranet doméstica (ou rede de área local) a dispositivos, ou pelo provedor de serviços de internet (ISP). O roteador de casa ou escritório gerencia os endereços IP privados para os dispositivos que se conectam a ele, de dentro dessa rede local. Os dispositivos de rede são, portanto, mapeados de seus endereços IP privados para endereços IP públicos pelo roteador. Os endereços IP privados são reutilizados em várias redes, preservando assim o valioso espaço de endereço IPv4 e estendendo a capacidade de endereçamento além do limite simples do IPv4 (4.294.967.296 ou 2³²). No esquema de endereçamento IPv6, cada dispositivo possível tem seu próprio identificador exclusivo atribuído pelo ISP ou organização de rede primária, que tem um prefixo exclusivo. O endereçamento privado é possível no IPv6 e, quando usado, é chamado de endereçamento local exclusivo (ULA).
 
 ## Endereço IP Estático
 Todos os endereços públicos e privados são definidos como estáticos ou dinâmicos. Um endereço IP que uma pessoa configura e fixa manualmente na rede de seu dispositivo é chamado de endereço IP estático. Um endereço IP estático não pode ser alterado automaticamente. Um provedor de serviços de internet pode atribuir um endereço IP estático a uma conta de usuário, e o mesmo endereço IP será atribuído a esse usuário em cada sessão.
